@@ -1,0 +1,107 @@
+/* css reset */
+body{
+    color: white;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background: url(tony-stark-new-element.jpg);
+    /* background-repeat: repeat-y; */
+    /* background-size: 100%; */
+    background-size: 1500px ;
+
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    background-color: rgb(22 88 117 / 14%);
+    border-radius: 100px;
+    /* border: 2px solid yellow; */
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 5px;
+    left: 34px;
+    top: 20px;
+    /* width: 10%; */
+}
+.left img{
+    width: 100px;
+    height: 100px;
+}
+.left .text{
+    /* margin: 10px; */
+    padding: 5px;
+    font-size: 20px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mid{
+    margin: 30px auto;
+    background-color: rgb(13 81 106 / 74%);
+    /* border: 2px solid red; */
+    border-radius: 50px;
+    width: 50%;
+}
+.navbr{
+    display: inline-block;
+
+}
+.navbr li{
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 20px;
+}
+.navbr li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+.navbr li a.active{
+    text-decoration: underline;
+    
+}
+.navbr li a:hover{
+    font-size: 25px;
+    color: yellow;
+}
+.right{
+    /* border: 2px solid green; */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    /* width: 10%; */
+}
+.right li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.container{
+    border: 2px solid white;
+    box-sizing: border-box;
+    width: 33%;
+    margin-top: 150px;
+    margin-left: 20px;
+    padding: 40px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 300px;
+    border: 2px solid black;
+    background-color: rgb(247, 225, 225);
+    margin: 10px;
+    padding: 10px;
+}
+.container button{
+    text-align: center;
+    display: block;
+    color: white;
+    background-color: black;
+    width: 30%;
+    border: 2px solid black;
+    font-weight: bolder;
+    /* background-color: rgb(247, 225, 225); */
+
+    margin: auto;
+    padding: 10px;
+}
